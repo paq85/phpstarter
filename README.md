@@ -1,4 +1,7 @@
 # PhpStarter
+
+[![Build Status](https://img.shields.io/travis/paq85/phpstarter/master.svg?style=flat-square)](https://travis-ci.org/paq85/phpstarter)
+
 Takes care preparing PHP's settings to let you work on a well written project
 
 ```php

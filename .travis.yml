@@ -14,11 +14,11 @@ php:
   - 5.6
   - 7.0
 
-before_script:
-    - composer install
-    - bin/composer install
-    - git config --global user.name travis-ci
-    - git config --global user.email travis@example.com
+before_install:
+  - composer self-update
+
+install:
+  - travis_retry composer install --no-interaction --prefer-source
 
 script:
     - ./vendor/bin/phpunit -c tests/phpunit.xml.dist

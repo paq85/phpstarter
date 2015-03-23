@@ -1,6 +1,7 @@
 # PhpStarter
 
 [![Build Status](https://img.shields.io/travis/paq85/phpstarter/master.svg?style=flat-square)](https://travis-ci.org/paq85/phpstarter)
+[![Packagist Version](https://img.shields.io/packagist/v/paq85/phpstarter.svg?style=flat-square)](https://packagist.org/packages/paq85/phpstarter)
 
 Takes care preparing PHP's settings to let you work on a well written project
 
